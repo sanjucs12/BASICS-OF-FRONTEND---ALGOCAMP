@@ -1,0 +1,18 @@
+* {
+  /* this is a universal selector */
+}
+
+body {
+  background-color: #cacaca;
+}
+
+input[disabled] {
+  background-color: rgb(148, 146, 146);
+}
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(3, 3, 3);
+}

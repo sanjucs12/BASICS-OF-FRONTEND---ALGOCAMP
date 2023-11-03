@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.demo1 {
+  width: 300px;
+  border: solid 5px red;
+  padding: 10px;
+}
+
+.demo2 {
+  width: 300px;
+  margin-top: 25px;
+  border: solid 5px red;
+  padding: 10px;
+}
