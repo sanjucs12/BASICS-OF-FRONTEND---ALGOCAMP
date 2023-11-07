@@ -1,4 +1,4 @@
-* {
+html {
   box-sizing: border-box;
 }
 *,
@@ -14,8 +14,15 @@
 }
 
 .demo2 {
+  /* box-sizing: content-box; */
   width: 300px;
   margin-top: 25px;
   border: solid 5px red;
   padding: 10px;
+}
+
+.demo3 {
+  border: solid 2px blue;
+  width: 200px;
+  padding: 5px;
 }

@@ -1,0 +1,34 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.parent {
+  border: solid 5px red;
+  height: 500px;
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row wrap;
+  justify-content: start;
+  align-items: center;
+  align-content: start;
+}
+
+.parent div {
+  border: solid 2px blue;
+  padding: 10px;
+  min-width: 100px;
+  min-height: 100px;
+  max-height: 100px;
+  /* max-width: 500px; */
+}
+
+#child1 {
+  flex-basis: 100%;
+}
